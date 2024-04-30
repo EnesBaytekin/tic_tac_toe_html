@@ -1,0 +1,74 @@
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgb(34, 34, 34);
+    margin: 0px;
+    padding: 0px;
+}
+
+.title {
+    width: 100%;
+    background-color: rgb(184, 175, 161);
+    margin: auto;
+}
+
+.title > h1 {
+    color: rgb(34, 34, 34);
+    background-color: rgb(184, 175, 161);
+    padding: 15px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.game-table {
+    width: 256px;
+    height: 256px;
+    border-collapse: collapse;
+    border: 3px solid rgb(184, 175, 161);
+    color:rgb(184, 175, 161);
+    margin: auto;
+    margin-top: 50px;
+}
+
+td {
+    border: 4px solid rgb(184, 175, 161);
+    width: 80px;
+    height: 80px;
+    font-weight: bold;
+    text-align: center;
+    font-size: 50px;
+    transition: all 0.3s;
+}
+
+td.clickable:hover {
+    background-color: rgb(109, 104, 97);
+    cursor: pointer;
+}
+
+.label {
+    margin-top: 40px;
+    text-align: center;
+}
+
+.restart-label:hover {
+    cursor: pointer;
+}
+
+.restart-label {
+    color: rgb(184, 175, 161);
+    /* text-decoration: underline; */
+}
+
+.result-label {
+    color: rgb(184, 175, 161);
+    font-size: 32px;
+}
+
+.noselect {
+    -webkit-touch-callout: none; /* iOS Safari */
+      -webkit-user-select: none; /* Safari */
+       -khtml-user-select: none; /* Konqueror HTML */
+         -moz-user-select: none; /* Old versions of Firefox */
+          -ms-user-select: none; /* Internet Explorer/Edge */
+              user-select: none; /* Non-prefixed version, currently
+                                    supported by Chrome, Edge, Opera and Firefox */
+}

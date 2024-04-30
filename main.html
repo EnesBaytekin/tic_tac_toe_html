@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Tic Tac Toe</title>
+        <meta charset="utf-8"/>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="title noselect">
+            <h1>Tic Tac Toe</h1>
+        </div>
+        <table class="game-table" id="table">
+            <tr id="r1">
+                <td class="noselect clickable" id="r1c1"> </td>
+                <td class="noselect clickable" id="r1c2"> </td>
+                <td class="noselect clickable" id="r1c3"> </td>
+            </tr>
+            <tr id="r2">
+                <td class="noselect clickable" id="r2c1"> </td>
+                <td class="noselect clickable" id="r2c2"> </td>
+                <td class="noselect clickable" id="r2c3"> </td>
+            </tr>
+            <tr id="r3">
+                <td class="noselect clickable" id="r3c1"> </td>
+                <td class="noselect clickable" id="r3c2"> </td>
+                <td class="noselect clickable" id="r3c3"> </td>
+            </tr>
+        </table>
+        <div class="label">
+            <span class="result-label" id="result-label"></span><br><br>
+            <span class="restart-label" id="restart-label">Click to restart.</span>
+        </div>
+        <script src="app.js"></script>
+    </body>
+</html>
